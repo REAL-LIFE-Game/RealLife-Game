@@ -1,6 +1,6 @@
 import time
 import os
-import random
+from random import *
 
 def a():
 
