@@ -24,15 +24,15 @@ def a():
     if spawnloc == 'A' or spawnloc == 'a':
         time.sleep(1)
         print('Your spawn: Switzerland.')
-        spawnloc = 'Швейцария'
+        spawnloc = 'Switzerland'
     elif spawnloc == 'B' or spawnloc == 'b':
         time.sleep(1)
         print('Your spawn: Denmark')
-        spawnloc = 'Дания'
+        spawnloc = 'Denmark'
     elif spawnloc == 'C' or spawnloc == 'c':
         time.sleep(1)
         print("Your spawn: Netherlands")
-        spawnloc = 'Нидерланды'
+        spawnloc = 'Netherlands'
     print('You are in', spawnloc)
 
     bal = randint(20000, 50000)
@@ -40,5 +40,5 @@ def a():
     print('Your start balance: ', bal, '$')
 #Образование
     #В Швейцарии
-    if spawnloc == 'Швейцария':
+    if spawnloc == 'Switzerland':
         print('You go to a regular school.')
