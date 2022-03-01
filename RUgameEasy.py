@@ -25,7 +25,7 @@ def a():
         time.sleep(1)
         print('Ваш спавн: Швейцария.')
         spawnloc = 'Швейцария'
-    elif spawnloc == 'B' or spawnloc == 'Швейцария':
+    elif spawnloc == 'B' or spawnloc == 'b':
         time.sleep(1)
         print('Ваш спавн: Дания')
         spawnloc = 'Дания'
@@ -37,7 +37,7 @@ def a():
 
     bal = randint(20000, 50000)
     time.sleep(0.7)
-    print('Ваш баланс: ', bal, '$')
+    print('Ваш стартовый баланс: ', bal, '$')
 #Образование
     #В Швейцарии
     if spawnloc == 'Швейцария':
