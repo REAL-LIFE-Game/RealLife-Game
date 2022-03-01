@@ -1,5 +1,7 @@
 import time
-
+import ENgameEasy
+import ENgameHard
+import ENgameNormal
 def a():
 
     print('Real Life Game. v1.0')
@@ -32,16 +34,19 @@ def a():
     #
     #---------------ЛЁГКАЯ ЖИЗНЬ-----------------------------
     #
-    if d == 'A':
-        time.sleep(1)
-        print('Your level: Easy life')
-        time.sleep(0.2)
-        print('Choose a spawn location:')
-        time.sleep(0.75)
-        print('A = Switzerland')
-        time.sleep(0.3)
-        print('B = Denmark')
-        time.sleep(0.3)
-        print('C = Netherlands')
-        time.sleep(0.1)
-        print('-')
+    #
+    #-----------------ЛЕГКАЯ ЖИЗНЬ---------------------
+    #
+    #
+    if d == 'A' or d == 'a':
+        ENgameEasy.a()
+    #
+    #-----------------НОРМАЛЬНАЯ ЖИЗНЬ---------------------
+    #
+    elif d == 'B' or d == 'b':
+        ENgameNormal.a()
+    #
+    #--------------СЛОЖНАЯ ЖИЗНЬ------------------
+    #
+    elif d == 'C' or d == 'c':
+        ENgameHard.a()
